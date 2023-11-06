@@ -13,6 +13,7 @@ const SearchAPIData = () => {
         console.log(data);
         setUser(data);
         console.log(user);
+         setCityName("");
       }
     } catch (error) {
       console.log(error);
