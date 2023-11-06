@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const SearchAPIData = () => {
   const [cityName, setCityName] = useState("");
-  const [user, setUser] = useState([]);
+  const [user, setUser] = useState(null);
   const fetchData = async () => {
     try {
       if (cityName) {
